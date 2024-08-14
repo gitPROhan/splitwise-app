@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/6cfb2cc004.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/account.css') }}">
+</head>
+<body>
+	<div class="navbar">
+		<a href="{{url_for('account')}}" id="pla" align="right"><i class="fa-solid fa-user"  style="color:#ada7ef"></i><span class="small">Account</span></a>
+		<a href="{{url_for('groups')}}" id="pla" align="right"><i class="fa-solid fa-user-group"></i><span class="small">Groups</span></a>
+		<a href="{{url_for('friends')}}" id="pla" align="right" ><i class="fa-solid fa-people-arrows"></i><span class="small"> Friends</span></a>
+		<a href="{{url_for('expense')}}" id="pla" align="right"><i class="fa-solid fa-receipt"></i><span class="small">  Add Expense</span></a>
+		<a href="{{url_for('home')}}" id="pla" align="right" ><i class="fa-solid fa-house"></i><span class="small"> Home</span></a>	
+		</div>
+	
+</body>
+</html>
